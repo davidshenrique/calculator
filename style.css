@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #348f50;
+    background: -webkit-linear-gradient(to right, #07a135, #969696);
+    background: linear-gradient(to right, #07a135, #969696);
+}
+
+.container {
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+input {
+    color: #fff;
+    padding: 17px;
+    outline: none;
+    font-size: 30px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    border-radius: 25%;
+    
+}
+
+.maincolor {
+    background-color: rgb(71, 71, 71);
+}
+
+.num {
+    width: 64px;
+    height: 67px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 8px 2px #000000;
+    cursor: pointer;
+}
+
+.num:hover {
+    background-color: #1e1e1e;
+}
+
+.text {
+    width: 173px;
+    height: 20px;
+    border-radius: 22px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-right: 5px;
+    box-shadow: 2px 2px 8px 2px #000000;
+    background-color: rgb(220, 214, 214);
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+
+.text1 {
+    width: 24px;
+    height: 26px;
+    border-radius: 25%;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px 2px #000000;
+    background-color: rgb(234, 62, 62);
+}
+
+.text1:hover {
+    background-color: #1e1e1e;
+}
+
+
+.dd {
+    background-color: #2ea09e;
+}
+
